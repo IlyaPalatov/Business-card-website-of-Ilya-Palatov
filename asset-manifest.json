@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-homework-template/static/css/main.34100fd7.css",
-    "main.js": "/react-homework-template/static/js/main.af577888.js",
-    "index.html": "/react-homework-template/index.html",
-    "main.34100fd7.css.map": "/react-homework-template/static/css/main.34100fd7.css.map",
-    "main.af577888.js.map": "/react-homework-template/static/js/main.af577888.js.map"
+    "main.css": "/Business-card-website-of-Ilya-Palatov/static/css/main.34100fd7.css",
+    "main.js": "/Business-card-website-of-Ilya-Palatov/static/js/main.af577888.js",
+    "index.html": "/Business-card-website-of-Ilya-Palatov/index.html",
+    "main.34100fd7.css.map": "/Business-card-website-of-Ilya-Palatov/static/css/main.34100fd7.css.map",
+    "main.af577888.js.map": "/Business-card-website-of-Ilya-Palatov/static/js/main.af577888.js.map"
   },
   "entrypoints": [
     "static/css/main.34100fd7.css",
