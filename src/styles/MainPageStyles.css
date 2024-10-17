@@ -1,0 +1,64 @@
+:root {
+    --background-main:#477254;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial, sans-serif';
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 100%;;
+    padding: 20px;
+}
+
+.background-theme{
+    background-color: var(--background-main); 
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap:25px;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+.box-for-logo{
+    justify-content: flex-start;
+}
+.box-for-links{
+    display: flex;
+    gap: 25px;
+}
+.links-nav{
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
+}
+.logo{
+    font-family: "Zilla Slab", serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.2em;
+  
+}
+.link-to-main{
+    text-decoration: none;
+    color: #333;
+}
+.link-to-about-me{
+    text-decoration: none;
+    color: #333;
+}
+.link-to-my-projects{
+    text-decoration: none;
+    color: #333;
+}
