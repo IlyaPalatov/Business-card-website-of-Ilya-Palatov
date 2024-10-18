@@ -48,17 +48,190 @@ body {
     font-weight: 600;
     font-style: italic;
     font-size: 1.2em;
-  
+    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
-.link-to-main{
+.link-to-main-logo{
     text-decoration: none;
     color: #333;
 }
-.link-to-about-me{
+.link-to-main,
+.link-to-about-me,
+.link-to-my-projects {
+    position: relative;
     text-decoration: none;
     color: #333;
+    transition: color 0.3s ease-in-out;
 }
-.link-to-my-projects{
-    text-decoration: none;
+
+.link-to-main::after,
+.link-to-about-me::after,
+.link-to-my-projects::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    transition: transform 0.3s ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.link-to-main:hover,
+.link-to-about-me:hover,
+.link-to-my-projects:hover {
+    color: #555;
+}
+
+.link-to-main:hover::after,
+.link-to-about-me:hover::after,
+.link-to-my-projects:hover::after {
+    transform: scaleX(1);
+}
+.btn-contact-me{
+    padding: 10px 25px;
+    background-color: transparent;
     color: #333;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    font-style: normal;
+    border: solid #333 1px;
+    cursor: pointer;
+    -webkit-animation: vibrate-1 0.3s linear infinite both;
+    animation: vibrate-1 0.3s linear infinite both;
+}
+.btn-contact-me:hover,
+.btn-contact-me:focus{
+    background-color: #333;
+    color: var(--background-main);
+    animation: 0;
+}
+.div-greetings {
+    background-color: #b6ba91;
+    display: flex;
+    justify-content: center;
+    /* Centers horizontally */
+    align-items: center;
+    /* Centers vertically */
+    height: 65vh;
+    /* Makes the div take up the full height of the viewport */
+}
+
+.p-greetings {
+    color: #333;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+}
+
+
+/** ALL KEYFRAMES */
+
+/**
+ * ----------------------------------------
+ * animation for btn 
+ * ----------------------------------------
+ */
+@-webkit-keyframes vibrate-1 {
+    0% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+
+    20% {
+        -webkit-transform: translate(-2px, 2px);
+        transform: translate(-2px, 2px);
+    }
+
+    40% {
+        -webkit-transform: translate(-2px, -2px);
+        transform: translate(-2px, -2px);
+    }
+
+    60% {
+        -webkit-transform: translate(2px, 2px);
+        transform: translate(2px, 2px);
+    }
+
+    80% {
+        -webkit-transform: translate(2px, -2px);
+        transform: translate(2px, -2px);
+    }
+
+    100% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+}
+
+@keyframes vibrate-1 {
+    0% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+
+    20% {
+        -webkit-transform: translate(-2px, 2px);
+        transform: translate(-2px, 2px);
+    }
+
+    40% {
+        -webkit-transform: translate(-2px, -2px);
+        transform: translate(-2px, -2px);
+    }
+
+    60% {
+        -webkit-transform: translate(2px, 2px);
+        transform: translate(2px, 2px);
+    }
+
+    80% {
+        -webkit-transform: translate(2px, -2px);
+        transform: translate(2px, -2px);
+    }
+
+    100% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+}
+
+/**
+ * ----------------------------------------
+ * animation tracking-in-expand
+ * ----------------------------------------
+ */
+@-webkit-keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
