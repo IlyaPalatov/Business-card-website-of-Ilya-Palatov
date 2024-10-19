@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Business-card-website-of-Ilya-Palatov/static/css/main.3c778df5.css",
-    "main.js": "/Business-card-website-of-Ilya-Palatov/static/js/main.e8dcb752.js",
+    "main.css": "/Business-card-website-of-Ilya-Palatov/static/css/main.b6f995ee.css",
+    "main.js": "/Business-card-website-of-Ilya-Palatov/static/js/main.fdd18bae.js",
     "index.html": "/Business-card-website-of-Ilya-Palatov/index.html",
-    "main.3c778df5.css.map": "/Business-card-website-of-Ilya-Palatov/static/css/main.3c778df5.css.map",
-    "main.e8dcb752.js.map": "/Business-card-website-of-Ilya-Palatov/static/js/main.e8dcb752.js.map"
+    "main.b6f995ee.css.map": "/Business-card-website-of-Ilya-Palatov/static/css/main.b6f995ee.css.map",
+    "main.fdd18bae.js.map": "/Business-card-website-of-Ilya-Palatov/static/js/main.fdd18bae.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c778df5.css",
-    "static/js/main.e8dcb752.js"
+    "static/css/main.b6f995ee.css",
+    "static/js/main.fdd18bae.js"
   ]
 }
