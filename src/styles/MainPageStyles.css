@@ -115,6 +115,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 65vh;
+    border-bottom: 3px solid #333;
 }
 .box-of-greetings{
     display: flex;
@@ -140,6 +141,61 @@ body {
     padding-right: 20px;
     display: flex;
     gap: 10px;
+}
+.link-to-my-social{
+    animation: back-scale-up 0.4s;
+}
+.link-to-my-social:hover,
+.link-to-my-social:focus {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.div-about-me {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: #052b23;
+    padding: 20px;
+}
+
+.my-skills,
+.my-study {
+    background-color: #081209;
+    padding: 20px;
+    border-radius: 25px;
+    flex-basis: 45%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.my-study {
+    background-color: #2d423b;
+}
+
+.my-skills-txt {
+    color: #2d423b;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+}
+
+.first-skill-txt,
+.first-study-txt,
+.last-skill-txt {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.my-study-txt {
+    color: #081209;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
 }
 
 /** ALL KEYFRAMES */
@@ -245,5 +301,44 @@ body {
 
     100% {
         opacity: 1;
+    }
+}
+
+/**
+ * ----------------------------------------
+ * animation scale-up-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    100% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(1);
+            transform: scale(1);
+    }
+
+    100% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+}
+@keyframes back-scale-up {
+    0%{
+        -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+    }
+    100%{
+        webkit-transform: scale(1);
+            transform: scale(1);
     }
 }
