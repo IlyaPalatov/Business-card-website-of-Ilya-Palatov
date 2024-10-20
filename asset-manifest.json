@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Business-card-website-of-Ilya-Palatov/static/css/main.b56751cf.css",
-    "main.js": "/Business-card-website-of-Ilya-Palatov/static/js/main.39feb29f.js",
+    "main.css": "/Business-card-website-of-Ilya-Palatov/static/css/main.e2fe1697.css",
+    "main.js": "/Business-card-website-of-Ilya-Palatov/static/js/main.920124a4.js",
+    "static/media/myFirstProj.png": "/Business-card-website-of-Ilya-Palatov/static/media/myFirstProj.d80eedd8fe78de94f1b7.png",
     "index.html": "/Business-card-website-of-Ilya-Palatov/index.html",
-    "main.b56751cf.css.map": "/Business-card-website-of-Ilya-Palatov/static/css/main.b56751cf.css.map",
-    "main.39feb29f.js.map": "/Business-card-website-of-Ilya-Palatov/static/js/main.39feb29f.js.map"
+    "main.e2fe1697.css.map": "/Business-card-website-of-Ilya-Palatov/static/css/main.e2fe1697.css.map",
+    "main.920124a4.js.map": "/Business-card-website-of-Ilya-Palatov/static/js/main.920124a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.b56751cf.css",
-    "static/js/main.39feb29f.js"
+    "static/css/main.e2fe1697.css",
+    "static/js/main.920124a4.js"
   ]
 }
