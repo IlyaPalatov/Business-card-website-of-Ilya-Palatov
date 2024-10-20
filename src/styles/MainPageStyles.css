@@ -180,17 +180,39 @@ body {
     font-family: "Afacad Flux", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    margin-right: 5px;
 }
 
 .first-skill-txt,
-.first-study-txt,
 .last-skill-txt {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
-
+.second-skill-txt{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 .my-study-txt {
+    color: #081209;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4em;
+}
+.first-study-txt,
+.second-study-txt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.first-study-desc{
+    display: flex;
+    width: 250px;
+    text-align: center;
     color: #081209;
     font-family: "Afacad Flux", sans-serif;
     font-weight: 400;
@@ -198,6 +220,7 @@ body {
     font-size: 1.2em;
 }
 
+/* Green */
 /** ALL KEYFRAMES */
 
 /**
@@ -271,7 +294,7 @@ body {
 
 /**
  * ----------------------------------------
- * animation tracking-in-expand
+ * animation-for-logo
  * ----------------------------------------
  */
 @-webkit-keyframes tracking-in-expand {
@@ -306,7 +329,7 @@ body {
 
 /**
  * ----------------------------------------
- * animation scale-up-center
+ * animation-for-social-icons
  * ----------------------------------------
  */
 @-webkit-keyframes scale-up-center {

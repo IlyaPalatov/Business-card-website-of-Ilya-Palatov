@@ -38,7 +38,7 @@ export const MainPage = () => {
             <svg fill="#e0e0ce" width="30px" height="30px" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg">
                <path d="M96,80a8,8,0,1,1-8-8A7.99993,7.99993,0,0,1,96,80Zm-8,28.001a4,4,0,0,0-4,4v64a4,4,0,1,0,8,0v-64A4,4,0,0,0,88,108.001Zm60,0a31.92463,31.92463,0,0,0-24,10.86767V112.001a4,4,0,0,0-8,0v64a4,4,0,1,0,8,0v-36a24,24,0,0,1,48,0v36a4,4,0,1,0,8,0v-36A32.03619,32.03619,0,0,0,148,108.001ZM224,44V212a12.01375,12.01375,0,0,1-12,12H44a12.01375,12.01375,0,0,1-12-12V44A12.01359,12.01359,0,0,1,44,32H212A12.01359,12.01359,0,0,1,224,44Zm-8,0a4.00458,4.00458,0,0,0-4-4H44a4.00458,4.00458,0,0,0-4,4V212a4.00458,4.00458,0,0,0,4,4H212a4.00458,4.00458,0,0,0,4-4Z"/>
                 </svg>
-                </a>
+              </a>
           </div>
           </div>
         </div>
@@ -46,19 +46,38 @@ export const MainPage = () => {
       <div className='div-about-me'>
         <div className='my-skills'>
           <div className='first-skill-txt'>
-            <p className='my-skills-txt'>React</p>
+            <p className='my-skills-txt'>React -</p>
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill='#b88c46' data-name="Layer 1" viewBox="0 0 24 24" width="20" height="24"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill='#b88c46' data-name="Layer 1" viewBox="0 0 24 24" width="20" height="24"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill='#b88c46' data-name="Layer 1" viewBox="0 0 24 24" width="20" height="24"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill='#b88c46' data-name="Layer 1" viewBox="0 0 24 24" width="20" height="24"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" /></svg>
           </div>
           <div className='second-skill-txt'>
-            <p className='my-skills-txt'>TypeScript</p>
-            
+            <p className='my-skills-txt'>TypeScript -</p> 
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill='#b88c46' data-name="Layer 1" viewBox="0 0 24 24" width="20" height="24"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill='#b88c46' data-name="Layer 1" viewBox="0 0 24 24" width="20" height="24"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill='#b88c46' data-name="Layer 1" viewBox="0 0 24 24" width="20" height="24"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" /></svg>
+
           </div>
           <div className='last-skill-txt'>
-            <p className='my-skills-txt'>OOP</p>
+            <p className='my-skills-txt'>JavaScript -</p>
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill='#b88c46' data-name="Layer 1" viewBox="0 0 24 24" width="20" height="24"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill='#b88c46' data-name="Layer 1" viewBox="0 0 24 24" width="20" height="24"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill='#b88c46' data-name="Layer 1" viewBox="0 0 24 24" width="20" height="24"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" /></svg>
+                       <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill='#b88c46' data-name="Layer 1" viewBox="0 0 24 24" width="20" height="24"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" /></svg>
           </div>
+          <div className='second-skill-txt'>
+            <p className='my-skills-txt'>Node.Js -</p> 
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill='#b88c46' data-name="Layer 1" viewBox="0 0 24 24" width="20" height="24"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill='#b88c46' data-name="Layer 1" viewBox="0 0 24 24" width="20" height="24"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill='#b88c46' data-name="Layer 1" viewBox="0 0 24 24" width="20" height="24"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill='#b88c46' data-name="Layer 1" viewBox="0 0 24 24" width="20" height="24"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" /></svg>
           </div>
+        </div>
         <div className='my-study'>
           <div className='first-study-txt'>
-            <p className='my-study-txt'>Revne Lyceum</p>
+            <h5 className='my-study-txt'>Revne Lyceum</h5>
+            <p className='first-study-desc'>Revnenskyi Lyceum is a hub educational institution with a branch school, Martusivska Primary School.</p>
           </div>
           <div className='second-study-txt'>
             <p className='my-study-txt'>GOIT</p>
