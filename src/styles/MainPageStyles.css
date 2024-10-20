@@ -115,7 +115,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 65vh;
-    border-bottom: 3px solid #333;
 }
 .box-of-greetings{
     display: flex;
@@ -149,6 +148,18 @@ body {
 .link-to-my-social:focus {
     -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.box-h2-my-skills{
+    display: flex;
+}
+.h2-my-skills{
+    color: #e0e0ce;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    text-align: center;
 }
 .div-about-me {
     display: flex;
@@ -241,9 +252,76 @@ body {
     font-style: normal;
     font-size: 1.2em;
 }
+.div-of-my-ex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #052b23;
+    padding: 20px;
+}
+.h3-my-ex{
+    color: #081209;
+    text-align: center;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+      display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: #052b23;
+    padding: 20px;
+}
+.section-of-proj{
+    color: #081209;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #052b23;
+    padding: 20px;  
+}
+.container-of-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.head-projects{
+    color: #e0e0ce;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.desc-card-of-my-proj {
+    background-color: #125040;
+    padding: 10px;
+    border-radius: 0 0 25px 25px;
+    color: #081209;
+}
 
+.card-of-my-proj {
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #2d423b;
+    max-width: 300px;
 
+}
 
+.photo-in-card {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+    height: 200px;
+}
+.link-to-project-rep{
+    text-decoration: none;
+}
 /** ALL KEYFRAMES */
 
 /**

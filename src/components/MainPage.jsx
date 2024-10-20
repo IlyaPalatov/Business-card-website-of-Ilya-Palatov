@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/MainPageStyles.css';
+import myFirstProj from '../images/myFirstProj.png';
 
 export const MainPage = () => {
   return (
@@ -45,6 +46,7 @@ export const MainPage = () => {
       </div>    
       <div className='div-about-me'>
         <div className='my-skills'>
+          <h2 className='h2-my-skills'>My Skills:</h2>
           <div className='first-skill-txt'>
             <p className='my-skills-txt'>React -</p>
             <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill='#b88c46' data-name="Layer 1" viewBox="0 0 24 24" width="20" height="24"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" /></svg>
@@ -75,14 +77,51 @@ export const MainPage = () => {
           </div>
         </div>
         <div className='my-study'>
+          <h2 className='h2-my-skills'>My Education:</h2>
           <div className='second-study-txt'>
             <a href="https://goit.global/ua-ru/courses/fullstack/" className='link-to-my-education'><h5 className='my-study-txt'>GOIT</h5></a> 
             <p className='second-study-desc'>GoIT - IT course platform
               Learn a modern profession from scratch and find your first job in IT and Digital sphere.</p>
             <p className='link-to-my-certificate'> Education: Full Stack Developer </p> <a className='link-to-my-education' href="https://drive.google.com/file/d/1223Z3_E39HFtPMX51IxIJucazzyI2LyC/view?usp=sharing">(Cerificate)</a>
           </div>
-          </div>
         </div>
+      </div>
+      <div className='div-of-my-ex'>
+        <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill='#b88c46' data-name="Layer 1" viewBox="0 0 24 24" width="20" height="24"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill='#b88c46' data-name="Layer 1" viewBox="0 0 24 24" width="20" height="24"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill='#b88c46' data-name="Layer 1" viewBox="0 0 24 24" width="20" height="24"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" /></svg>
+        <h3 className='h3-my-ex'>3 years experience</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill='#b88c46' data-name="Layer 1" viewBox="0 0 24 24" width="20" height="24"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill='#b88c46' data-name="Layer 1" viewBox="0 0 24 24" width="20" height="24"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill='#b88c46' data-name="Layer 1" viewBox="0 0 24 24" width="20" height="24"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" /></svg>
+      </div>
+      <div>
+        <div className='section-of-proj'>
+          <h2 className='head-projects'>My Projects</h2>
+          <div className='container-of-cards'>
+            <a className='link-to-project-rep'href="https://github.com/SonGlad/tasty-treats-team-project">
+            <div className='card-of-my-proj'>
+              <img className="photo-in-card" src={myFirstProj} alt="" />
+              <div className='desc-card-of-my-proj'>
+                <p>Tasty Treats  (Team Project)</p>
+              </div>
+            </div>
+            </a>
+          <div className='card-of-my-proj'>
+           <img className="photo-in-card" src={myFirstProj} alt="" />
+            <div className='desc-card-of-my-proj'>
+              <p>Tasty Treats</p>
+              </div>
+          </div>
+          <div className='card-of-my-proj'>
+           <img className="photo-in-card" src={myFirstProj} alt="" />
+            <div className='desc-card-of-my-proj'>
+              <p>Tasty Treats</p>
+              </div>
+            </div>
+            </div>
+        </div>
+      </div>
     </div>
   );
 };
