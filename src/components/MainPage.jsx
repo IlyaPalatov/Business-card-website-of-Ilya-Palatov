@@ -75,12 +75,11 @@ export const MainPage = () => {
           </div>
         </div>
         <div className='my-study'>
-          <div className='first-study-txt'>
-            <h5 className='my-study-txt'>Revne Lyceum</h5>
-            <p className='first-study-desc'>Revnenskyi Lyceum is a hub educational institution with a branch school, Martusivska Primary School.</p>
-          </div>
           <div className='second-study-txt'>
-            <p className='my-study-txt'>GOIT</p>
+            <a href="https://goit.global/ua-ru/courses/fullstack/" className='link-to-my-education'><h5 className='my-study-txt'>GOIT</h5></a> 
+            <p className='second-study-desc'>GoIT - IT course platform
+              Learn a modern profession from scratch and find your first job in IT and Digital sphere.</p>
+            <p className='link-to-my-certificate'> Education: Full Stack Developer </p> <a className='link-to-my-education' href="https://drive.google.com/file/d/1223Z3_E39HFtPMX51IxIJucazzyI2LyC/view?usp=sharing">(Cerificate)</a>
           </div>
           </div>
         </div>
