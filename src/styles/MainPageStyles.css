@@ -280,6 +280,25 @@ body {
     background-color: #052b23;
     padding: 20px;  
 }
+.box-of-btns-filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+.btn-filter{
+    padding: 10px 15px;
+    background-color: #0f513d;
+    border: none;
+    border-radius: 10px;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 1.2em;
+    cursor: pointer;
+}
 .container-of-cards{
     display: flex;
     justify-content: center;
@@ -310,7 +329,6 @@ body {
     overflow: hidden;
     background-color: #2d423b;
     max-width: 300px;
-
 }
 
 .photo-in-card {

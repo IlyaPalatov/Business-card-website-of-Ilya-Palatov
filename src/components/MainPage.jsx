@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/MainPageStyles.css';
-import myFirstProj from '../images/myFirstProj.png';
+import ProjectFilter from './ProjectsFilter';
+
+
 
 export const MainPage = () => {
   return (
@@ -99,26 +101,7 @@ export const MainPage = () => {
         <div className='section-of-proj'>
           <h2 className='head-projects'>My Projects</h2>
           <div className='container-of-cards'>
-            <a className='link-to-project-rep'href="https://github.com/SonGlad/tasty-treats-team-project">
-            <div className='card-of-my-proj'>
-              <img className="photo-in-card" src={myFirstProj} alt="" />
-              <div className='desc-card-of-my-proj'>
-                <p>Tasty Treats  (Team Project)</p>
-              </div>
-            </div>
-            </a>
-          <div className='card-of-my-proj'>
-           <img className="photo-in-card" src={myFirstProj} alt="" />
-            <div className='desc-card-of-my-proj'>
-              <p>Tasty Treats</p>
-              </div>
-          </div>
-          <div className='card-of-my-proj'>
-           <img className="photo-in-card" src={myFirstProj} alt="" />
-            <div className='desc-card-of-my-proj'>
-              <p>Tasty Treats</p>
-              </div>
-            </div>
+          <ProjectFilter />
             </div>
         </div>
       </div>
