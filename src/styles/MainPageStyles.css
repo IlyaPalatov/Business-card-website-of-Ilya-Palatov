@@ -340,6 +340,52 @@ body {
 .link-to-project-rep{
     text-decoration: none;
 }
+.footer{
+    color: #081209;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #052b23;
+}
+.box-of-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-main);
+    padding: 20px;
+}
+.txt-in-footer{
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #333;
+}
+
+/** Modal Talk To ME */
+
+.overlay-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-bg {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+.box-for-header-of-div {
+    margin-bottom: 20px;
+}
 /** ALL KEYFRAMES */
 
 /**

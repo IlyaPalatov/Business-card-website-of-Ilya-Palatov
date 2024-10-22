@@ -1,30 +1,42 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/MainPageStyles.css';
+import Modal from './ModalContactToMe';
 import ProjectFilter from './ProjectsFilter';
 
 
 
 export const MainPage = () => {
+
+    const [isModalOpen, setModalOpen] = useState(false);
+
+    const openModal = () => setModalOpen(true);
+    const closeModal = () => setModalOpen(false);
   return (
+    
     <div className='background-theme'>
         <div className="container">
         <div className='navigation'>
-         
             <div className='box-for-logo'>
               <a href='./MainPage.jsx' className='link-to-main-logo'><p className='logo' >ILLIA.</p></a>
             </div>
-         
           <div className="box-for-links">
-            <a href='./MainPage.jsx' className='link-to-main'><p className='links-nav' >Home</p></a>
-            <a href='./MainPage.jsx' className='link-to-about-me'><p className='links-nav' >About Me</p></a>
-            <a href='./MainPage.jsx' className='link-to-my-projects'><p className='links-nav' >My Projects</p></a>
+            <a href="#home" className="link-to-main">
+              <p className="links-nav">Home</p>
+            </a>
+            <a href="#about-me" className="link-to-about-me">
+              <p className="links-nav">About Me</p>
+            </a>
+            <a href="#my-projects" className="link-to-my-projects">
+              <p className="links-nav">My Projects</p>
+            </a>
           </div>
           <div>
-            <button className='btn-contact-me'>Let's Talk</button>
+            <button className='btn-contact-me' onClick={openModal}>Let's Talk</button>
+          <Modal isOpen={isModalOpen} onClose={closeModal} />
           </div>
         </div>
       </div>
-      <div className='div-greetings'>
+      <div id="main" className='div-greetings'>
         <div className="container">
           <div className='box-of-greetings'>
             <p className='p-greetings'>Hey, I Am Illia <br /> Full Stack Developer</p>  
@@ -46,7 +58,7 @@ export const MainPage = () => {
           </div>
         </div>
       </div>    
-      <div className='div-about-me'>
+      <div className='div-about-me' id='about-me'>
         <div className='my-skills'>
           <h2 className='h2-my-skills'>My Skills:</h2>
           <div className='first-skill-txt'>
@@ -98,11 +110,16 @@ export const MainPage = () => {
             <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill='#b88c46' data-name="Layer 1" viewBox="0 0 24 24" width="20" height="24"><path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" /></svg>
       </div>
       <div>
-        <div className='section-of-proj'>
+        <div className='section-of-proj'  id='my-projects'>
           <h2 className='head-projects'>My Projects</h2>
           <div className='container-of-cards'>
           <ProjectFilter />
-            </div>
+          </div>
+        </div>
+      </div>
+      <div className='footer'>
+        <div className='box-of-footer'>
+          <p className='txt-in-footer'>@ Copyright 2024. Made by <span className='logo'>ILLIA.</span></p>
         </div>
       </div>
     </div>
